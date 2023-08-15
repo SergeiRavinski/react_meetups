@@ -8,7 +8,7 @@ import MainNavigation from "./components/layout/MainNavigation";
 function App() {
 	return (
 		<div>
-      <MainNavigation />
+			<MainNavigation />
 			<Switch>
 				<Route path="/" exact>
 					<AllMeetupsPage />
