@@ -16,7 +16,14 @@ function NewMeetupPage() {
 				},
 			}
 		);
+
+		function replaceToMainPage() {
+			history.replace('/');
+		}
+
+		replaceToMainPage();
 	}
+
 	return (
 		<section>
 			<h1>New Meetup Page</h1>
