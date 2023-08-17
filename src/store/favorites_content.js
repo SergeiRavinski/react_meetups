@@ -13,6 +13,7 @@ function favoritesContextProvider(props) {
 			return previousUserFavorites.concat(favoriteMeetup);
 		});
 	}
+
 	function removeFavoriteHandler(meetupId) {
 		setUserFavorites((previousUserFavorites) => {
 			return previousUserFavorites.filter(
@@ -20,6 +21,7 @@ function favoritesContextProvider(props) {
 			);
 		});
 	}
+
 	function itemIsFavoriteHandler(meetupId) {
 		setUserFavorites(() => {
 			return userFavorites.some((meetup) => meetup.id === meetupId);
