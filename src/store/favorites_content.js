@@ -20,6 +20,12 @@ function favoritesContextProvider(props) {
 			);
 		});
 	}
+	function itemIsFavoriteHandler(meetupId) {
+		setUserFavorites(() => {
+			return userFavorites.some((meetup) => meetup.id === meetupId);
+		});
+	}
+
 	const context = {
 		favorites: userFavorites,
 		totalFavorites: userFavorites.length,
