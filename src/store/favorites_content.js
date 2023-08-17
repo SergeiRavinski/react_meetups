@@ -13,6 +13,13 @@ function favoritesContextProvider(props) {
 			return previousUserFavorites.concat(favoriteMeetup);
 		});
 	}
+	function removeFavoriteHandler(meetupId) {
+		setUserFavorites((previousUserFavorites) => {
+			return previousUserFavorites.filter(
+				(meetup) => meetup.id !== meetupId
+			);
+		});
+	}
 	const context = {
 		favorites: userFavorites,
 		totalFavorites: userFavorites.length,
