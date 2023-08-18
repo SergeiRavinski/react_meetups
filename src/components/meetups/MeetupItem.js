@@ -5,6 +5,8 @@ import classes from './MeetupItem.module.css';
 import FavoritesContext from '../../store/favorites_content';
 
 function MeetupItem(props) {
+	const favoritesCtx = useContext(FavoritesContext);
+	const itemIsFavorite = favoritesCtx.itemIsFavorite(props.id);
 	return (
 		<li className={classes.item}>
 			<Card>
