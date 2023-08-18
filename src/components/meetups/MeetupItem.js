@@ -1,5 +1,4 @@
-import Card from "../ui/Card";
-import classes from "./MeetupItem.module.css";
+import { useContext } from 'react';
 
 function MeetupItem(props) {
 	return (
