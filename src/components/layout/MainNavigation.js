@@ -4,6 +4,8 @@ import classes from './MainNavigation.module.css';
 import FavoritesContext from '../../store/favorites_content';
 
 function MainNavigation() {
+	const favoritesCtx = useContext(FavoritesContext);
+
 	return (
 		<header className={classes.header}>
 			<div className={classes.logo}>Oslo Meetups</div>
