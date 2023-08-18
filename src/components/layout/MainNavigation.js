@@ -1,5 +1,6 @@
 import { useContext } from 'react';
 import { Link } from 'react-router-dom';
+
 import classes from './MainNavigation.module.css';
 import FavoritesContext from '../../store/favorites_content';
 
