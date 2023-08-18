@@ -46,4 +46,4 @@ function favoritesContextProvider(props) {
 	);
 }
 
-export default favoritesContextProvider;
+export default FavoritesContext;
