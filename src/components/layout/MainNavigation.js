@@ -18,7 +18,12 @@ function MainNavigation() {
 						<Link to='/new-meetup'>New Meetups</Link>
 					</li>
 					<li>
-						<Link to='/favorites'>Favorites</Link>
+						<Link to='/favorites'>
+							Favorites
+							<span className={classes.badge}>
+								{favoritesCtx.totalFavorites}
+							</span>
+						</Link>
 					</li>
 				</ul>
 			</nav>
