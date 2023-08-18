@@ -13,6 +13,13 @@ function FavoritesPage() {
 	} else {
 		content = <MeetupList meetups={favoritesCtx.favorites} />;
 	}
+
+	return (
+		<section>
+			<h1>My Favorites</h1>
+			{content}
+		</section>
+	);
 }
 
 export default FavoritesPage;
