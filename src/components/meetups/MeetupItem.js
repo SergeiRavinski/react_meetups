@@ -1,5 +1,9 @@
 import { useContext } from 'react';
 
+import Card from '../ui/Card';
+import classes from './MeetupItem.module.css';
+import FavoritesContext from '../../store/favorites_content';
+
 function MeetupItem(props) {
 	return (
 		<li className={classes.item}>
