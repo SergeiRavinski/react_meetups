@@ -1,0 +1,11 @@
+:root {
+	--large-text-size: 1.563rem;
+	--medium-text-size: 1.25rem;
+	--small-text-size: 1rem;
+
+	--primary-dark: red;
+	--secondary-dark: blue;
+	--tertiary-dark: black;
+
+	--font-family: 'Roboto', sans-serif;
+}
