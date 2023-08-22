@@ -1,0 +1,16 @@
+:root {
+	--large-text-size: 1.563rem;
+	--medium-text-size: 1.25rem;
+	--small-text-size: 1rem;
+
+	--primary-dark: #1f363d;
+	--secondary-dark: #70a9a1;
+	--tertiary-dark: #38545d;
+	--quartery-dark: rgba(31, 54, 61, 0.85);
+
+	--primary-light: #f4f7f2;
+	--secondary-light: #cbd8cd;
+	--tertiary-light: white;
+
+	--font-family: 'Roboto', sans-serif;
+}
