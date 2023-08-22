@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client';
 import { BrowserRouter } from 'react-router-dom';
 
 import './variables.css';
+import './reset.css';
 import './index.css';
 import App from './App';
 import { FavoritesContextProvider } from './store/favorites_content';
