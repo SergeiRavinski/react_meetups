@@ -9,6 +9,7 @@
 	background-color: var(--quartery-dark);
 	backdrop-filter: blur(1rem);
 	padding: 0 10%;
+	box-shadow: 0 0.1rem 0.5rem var(--primary-dark);
 }
 
 section h1 {
