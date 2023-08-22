@@ -1,5 +1,6 @@
 .form {
 	padding: 1rem;
+	color: var(--primary-dark);
 }
 
 .control {
@@ -42,4 +43,11 @@
 .actions button:active {
 	background-color: var(--quartery-dark);
 	border-color: var(--primary-dark);
+}
+
+@media screen and (max-width: 600px) {
+	.form {
+		padding: 0.5rem;
+		font-size: var(--small-text-size);
+	}
 }
