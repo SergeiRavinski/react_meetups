@@ -9,7 +9,7 @@ function MainNavigation() {
 
 	return (
 		<header className={classes.header}>
-			<div className={classes.logo}>Oslo Meetups</div>
+			<div className={classes.logo}>Meetups</div>
 			<nav>
 				<ul>
 					<li>
